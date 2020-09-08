@@ -1,0 +1,14 @@
+.wrap{
+word-break: break-all;   
+}
+#scusi {
+  animation: color-change 7s infinite;
+}
+
+@keyframes color-change {
+  0% { color: #f5e642; }
+  25%{ color: #f5ad42;}
+  50% { color: #8af542; }
+  75%{ color: #42f5dd;}
+  100% { color: #4299f5; }
+}
